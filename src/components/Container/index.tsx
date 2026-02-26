@@ -1,10 +1,10 @@
 import clsx from "clsx";
 
 type ContainerProps = {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 
-export default async function Container({children}: ContainerProps) {
+export function Container({ children }: ContainerProps) {
 
   return (
     <div className={clsx('text-slate-900', 'bg-slate-100', 'min-h-screen')}>
