@@ -8,7 +8,7 @@ export function Container({ children }: ContainerProps) {
 
   return (
     <div className={clsx('text-slate-900', 'bg-slate-100', 'min-h-screen')}>
-      <div className={clsx('max-w-5xl', 'mx-auto', 'px-8')}>
+      <div className={clsx('max-w-5xl', 'mx-auto', 'px-8', 'min-h-screen', 'flex flex-col')}>
         {children}
       </div>
     </div>
