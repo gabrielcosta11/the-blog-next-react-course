@@ -7,7 +7,7 @@ import { Header } from "../components//Header";
 import { PostFeatured } from "../components/PostFeatured";
 
 export default async function Home() {
-
+  
   return (
     <>
       <Suspense fallback={<SpinLoader className='min-h-20 mb-16'/>}>
